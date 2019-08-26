@@ -5,14 +5,20 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<nav className="navbar navbar-light bg-light mb-3">
-				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
+				<Link to="/Personajes">
+					<button className="btn btn-primary">Personajes</button>
 				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div>
+
+				<Link to="/Peliculas">
+					<button className="btn btn-primary">Peliculas</button>
+				</Link>
+				<Link to="/Planetas">
+					<button className="btn btn-primary">Planetas</button>
+				</Link>
+				<Link to="/Vehiculos">
+					<button className="btn btn-primary">Vehiculos</button>
+				</Link>
+				<div className="ml-auto" />
 			</nav>
 		);
 	}

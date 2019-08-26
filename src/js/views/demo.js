@@ -21,14 +21,8 @@ export class Demo extends React.Component {
 										<Link to={"/single/" + index}>
 											<span>Link to: {item.title}</span>
 										</Link>
-										<p style={{ color: item.initial }}>
-											{"Check store/store.js scroll to the actions to see the code "}
-										</p>
-										<button
-											className="btn btn-success"
-											onClick={() => actions.changeColor(index, "orange")}>
-											Change Color
-										</button>
+
+
 									</li>
 								);
 							});
